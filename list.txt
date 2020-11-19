@@ -1,0 +1,6 @@
+Các bước cấu hình Domain(NameCheap) + SSL , Nginx
+1. Thay đổi Custom DNS của Vultr (Phân giải tên miền của bên Vultr)
+   - ns1.vultr.com
+   - ns2.vultr.com
+2. Thêm domain trong phần cấu hình Manage DNS Domain
+    - Tạo domain trỏ về IP VPS của Vultr
