@@ -4,3 +4,8 @@ Các bước cấu hình Domain(NameCheap) + SSL , Nginx
    - ns2.vultr.com
 2. Thêm domain trong phần cấu hình Manage DNS Domain
     - Tạo domain trỏ về IP VPS của Vultr
+    
+-----------------------------------------------------------
+
+# sudo snap install --classic certbot
+# sudo certbot --nginx -d teetizy.com
